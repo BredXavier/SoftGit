@@ -97,7 +97,7 @@ function altN(objeto){
 //Chama um prompt para alterar o tempo
 function altT(){
     var aux = parseInt(window.prompt("Digite o novo tempo em segundos:"))
-    tempo = aux
+    tempo = aux > 0 ? aux : 180
     Ptempo.innerText = Ttexto(tempo)
 }
 
