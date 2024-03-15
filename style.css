@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+}
+
+.container {
+    width: 60%;
+    border-radius: 20px;
+    margin-top: 3%;
+    background: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+}
+
+/*div#global{
+    background-color: gray;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    font: normal 13pt Arial;
+    color: black;
+}*/
+
+p#pnota{
+    color: black;
+    padding: 8px;
+    text-align: justify;
+    background-color: aqua;
+    max-width: 100%;
+}
+
+p#cabe{
+    color: white;
+    font: bold 13px 'Orbitron';
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+    background-color: black;
+    width: 80%;
+}
+
+.box{
+    color: black;
+    margin-top: 3px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+h1{
+    font: bold 60px 'Orbitron';
+    color: darkviolet;
+    text-align: center;
+}
+textarea#txtAdd{
+    border-radius: 5px;
+    width: 50%;
+    height: 20%;
+}
+
+input#btnAdd{
+    position: relative;
+    top: -20px;
+}
